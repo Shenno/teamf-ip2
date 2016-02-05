@@ -38,7 +38,7 @@
             <version>2.1.1</version>
             <configuration>
               <outputDirectory>deployments</outputDirectory>
-              <warName>ROOT</warName>
+              <warName>ip2</warName>
             </configuration>
           </plugin>
         </plugins>
