@@ -15,9 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>ip2</finalName>
-  </build>
   <profiles>
     <profile>
       <!-- When
@@ -34,15 +31,23 @@
       html -->
       <id>openshift</id>
       <build>
-        <finalName>repaircafe</finalName>
+        <finalName>ip2</finalName>
         <plugins>
           <plugin>
-            <artifactId>mavenwarplugin</artifactId>
+            <artifactId>maven-war-plugin</artifactId>
             <version>2.1.1</version>
             <configuration>
               <outputDirectory>deployments</outputDirectory>
               <warName>ROOT</warName>
             </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <configuration>
+              <port>8085</port>
+            </configuration>
+            <version>2.2</version>
           </plugin>
         </plugins>
       </build>
