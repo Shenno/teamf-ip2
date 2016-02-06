@@ -1,5 +1,4 @@
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -8,18 +7,11 @@ import org.junit.Test;
  * Project      teamf-ip2
  * Package      PACKAGE_NAME
  */
-public class OneTest {
-
-    @Before
-    public void setup()
-    {
-
-    }
-
+public class ShennoTest {
     @Test
     public void testing()
     {
-        Assert.assertEquals("Test must fail", 5, 5);
+        Assert.assertEquals("Test must not fail", 5, 5);
     }
 
 }
