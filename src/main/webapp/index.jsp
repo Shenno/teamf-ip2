@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World en Shenno en Kevin en de rest!</h2>
+<h2>Hello World Integratieproject 2!</h2>
 </body>
 </html>
