@@ -8,7 +8,7 @@ import org.junit.Test;
  * Project      teamf-ip2
  * Package      PACKAGE_NAME
  */
-public class TestOne {
+public class OneTest {
 
     @Before
     public void setup()
